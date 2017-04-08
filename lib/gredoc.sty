@@ -1,0 +1,704 @@
+\ProvidesPackage{gredoc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% Réglages et commandes pour n'importe quel document %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%% Vous pourriez vouloir modifier ces réglages. %%%%%%%%%%%%%%%%%
+%%% Taille des partitions grégoriennes.
+\newcounter{facteur}\setcounter{facteur}{45}
+%%% Élasticité des espaces : mettez une valeur inférieure à 10000. Plus les
+%%% valeurs sont élevées, plus LaTeX aura de facilité à éviter les
+%%% "débordements", mais moins la mise en page sera rigoureuse.
+%%% Avant de modifier ces paramètres, assurez-vous qu'il n'y a pas moyen de
+%%% faire autrement (gestion des césures, etc.).
+%%% Paramètres recommandés :
+%%% en A5 (police 11pt, DIV auto), tolerance à 1000 et pretolerance à 300 ;
+%%% en A6 (police 9pt, DIV=11), tolerance à 5000 et pretolerance à 1700.
+\tolerance=1000 \pretolerance=300
+%%% Prévention des veuves et orphelines. Vous pouvez augmenter ces paramètres,
+%%% mais attendez-vous à des aberrations.
+%\usepackage[defaultlines=2,all]{nowidow}
+\usepackage{nowidow}
+\flushbottom
+\widowpenalties 3 3000 0 0
+\clubpenalties 3 9999 50 0
+%%% Taille (proportionnelle) de la première colonne dans les textes en
+%%% parallèle, et taille de l'espace inter-colonnes.
+\def\ratio{.48}
+\def\sep{.05\textwidth}
+
+
+%%%%%%%%%%%%%%%%%%%%%% Dépendances et réglages généraux. %%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Suppléments propres à LuaTeX.
+%\RequirePackage{luatextra}
+%%% Paramètres de langue.
+\RequirePackage{polyglossia}\setmainlanguage{french}\setotherlanguage{latin}
+\selectbackgroundlanguage{french}
+\RequirePackage{enumitem}\setlist{nosep}\setlist[itemize]{label=−}
+\def\ier{\raisebox{.5ex}{{\footnotesize \hspace{.1ex}er}}}
+\def\iere{\raisebox{.5ex}{{\footnotesize \hspace{.1ex}re}}}
+\def\ieme{\raisebox{.5ex}{{\footnotesize \hspace{.1ex}e}}}
+\def\iers{\raisebox{.5ex}{{\footnotesize \hspace{.1ex}ers}}}
+\def\ieres{\raisebox{.5ex}{{\footnotesize \hspace{.1ex}res}}}
+\def\iemes{\raisebox{.5ex}{{\footnotesize \hspace{.1ex}es}}}
+
+%%% Une question qui revient souvent : comment personnaliser les marges ?
+%%% Réponse courte : laissez faire LaTeX, il sait ce qu'il fait !
+%%% Bonne réponse : augmentez ou diminuez le paramètre DIV au tout début du
+%%%     document maître.
+%%% Mauvaise réponse : si vraiment vous y tenez, décommentez les lignes qui
+%%%     suivent, et adaptez-les à vos exigences.
+\usepackage[%
+ 		includehead%
+ 		,left=25mm%
+ 		,right=25mm%
+ 		,top=10mm%
+ 		,bottom=30mm%
+ 		,headsep=10mm%
+]{geometry}
+
+%%% Utiles pour les commandes personnalisées.
+\RequirePackage{multicol,paracol}\setcounter{collectmore}{-1}
+\setlength{\columnsep}{\sep}\columnratio{\ratio}\swapcolumninevenpages
+\RequirePackage{needspace}
+\RequirePackage{graphicx}
+\RequirePackage[table]{xcolor}
+\RequirePackage{keycommand,ifthen,calc}
+\RequirePackage{lettrine}
+
+%%% KOMA - Options de titres, de numéros de pages...
+\RequirePackage{scrpage2,titlesec}
+\pagestyle{scrheadings}
+\setcounter{secnumdepth}{0}
+\renewcommand*{\partformat}{}
+\renewcommand*{\chapterformat}{}
+\renewcommand*{\othersectionlevelsformat}[3]{}
+\renewcommand*{\partmarkformat}{}
+\renewcommand*{\chaptermarkformat}{}
+\addtokomafont{chapter}{\centering}
+\renewcommand*{\titlepagestyle}{empty}
+\renewcommand*{\partpagestyle}{empty}
+\renewcommand*{\chapterpagestyle}{empty}
+\renewcommand*{\indexpagestyle}{empty}
+\clearscrheadfoot\ohead[\pagemark]{{\small\pagemark}}\ihead{{\small\headmark}}
+\titlespacing{\section}{0pt}{%
+	1\baselineskip plus .2\baselineskip minus .8\baselineskip}{%
+	.5\baselineskip plus .4\baselineskip minus .3\baselineskip}
+\titlespacing{\subsection}{0pt}{%
+	1\baselineskip plus .5\baselineskip minus .8\baselineskip}{%
+	.5\baselineskip plus .8\baselineskip minus .3\baselineskip}
+\newcommand{\sectionbreak}{\vspace{0\baselineskip plus 3\baselineskip}\pagebreak[3]\needspace{8\baselineskip}}
+\newcommand{\subsectionbreak}{\vspace{0\baselineskip plus 2\baselineskip}\pagebreak[3]\needspace{3\baselineskip}}
+\newcommand{\paginarectavacua}{\ifthispageodd{\thispagestyle{plain}}{}}
+
+\RequirePackage{imakeidx}
+
+%%% GregorioTeX.
+\RequirePackage[autocompile]{gregoriotex}
+\RequirePackage{gregoriosyms}
+\grechangestaffsize{\value{facteur}}
+
+%%% Polices de caractères.
+\RequirePackage{libertine,lettrine}
+\setmainfont[%
+	Numbers = {Proportional,OldStyle}%     Style des nombres
+	, WordSpace = {1.5,1.5,3}%             Espacement entre les mots
+	]{%
+	Linux Libertine O%                     Police par défaut
+}
+\RequirePackage[%
+	activate={true,nocompatibility}%
+	,final%
+	,tracking=true%
+	,factor=1100%
+	,stretch=50%
+	,shrink=30%
+	]{%
+	microtype%
+}
+\SetTracking{encoding={*}, shape=sc}{0}
+\newlength{\tailletemp} \newlength{\taillepolice}
+\setlength{\tailletemp}{\value{facteur} pt} \setlength{\taillepolice}{1\tailletemp}
+\newfontfamily\lettrines[Scale=1.3]{l800}
+\newfontfamily\glettrines[Scale=2.6]{l800}
+\def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
+\grechangestyle{initial}{\lettrines}
+\grechangestyle{biginitial}{\glettrines\rubrum}
+%\def\greinitialformat#1{{\lettrines #1}}
+%\font\lettrinetexte=l800.ttf at 4\baselineskip
+%\renewcommand{\LettrineFont}{\lettrinetexte}
+\setlength{\DefaultFindent}{-2em}
+\let\oldlettrine\lettrine
+\def\lettrine#1#2{\vspace{-1.5\baselineskip}\oldlettrine{#1}{#2}}
+
+%%% PDF.
+\RequirePackage[pdftex=true,%
+    hypertexnames=false,%
+    pdfborder=0,%
+    hyperindex=true,%
+    pdfpagelabels=true,%
+    unicode%
+    ]{hyperref}
+\let\oldaddcontentsline\addcontentsline
+\renewcommand{\addcontentsline}{%
+    \phantomsection
+    \oldaddcontentsline%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Paramètres personnalisés. %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Modification des espaces verticaux.
+\renewcommand{\smallskip}{\vspace{.2\baselineskip plus .2\baselineskip}}
+\renewcommand{\medskip}{%
+	\vspace{.7\baselineskip plus 2.3\baselineskip minus .5\baselineskip}%
+}
+\renewcommand{\bigskip}{%
+	\vspace{1.5\baselineskip plus 3.5\baselineskip minus .7\baselineskip}%
+}
+% Interligne élastique.
+\let\oldnormalsize\normalsize
+\def\normalsize{%
+	\oldnormalsize%
+	\addtolength{\baselineskip}{0pt plus .05\baselineskip minus .05\baselineskip}%
+	\addtolength{\parskip}{0pt plus .1\baselineskip}%
+}
+\let\taillenormale\normalsize
+\normalsize
+%%% Couleur rouge pour les rubriques.
+\definecolor{gregoriocolor}{rgb}{.6,0,0}
+\def\rubrum{\color{gregoriocolor}}
+%\def\rubrum{\color{black}}
+%\let\red\rubrum
+\newcommand{\rubrica}[2][french]{{\small%
+	\vspace{0\baselineskip plus 1\baselineskip}%
+	\pagebreak[2]%
+	\begin{#1}\noindent\emph{\rubrum #2}\par\end{#1}
+	\vspace{0\baselineskip plus .5\baselineskip}%
+}}
+% \let\rubrique\rubrica
+%%%Caractères spéciaux.
+% Pas besoin d'espace insécable : LaTeX gère lui-même les espaces.
+\catcode`\ =\active \def  {~}
+% Idem pour la césure (invisible, c'est normal !). Cette bidouille vous
+% épargnera des sueurs si vous copiez du texte à partir d'un traitement
+% de texte.
+\catcode`\­=\active \def­{}
+% Pour des apostrophes esthétiques.
+\catcode`\'=\active \def '{’}
+\catcode`\œ=\active \def œ{\oe}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Commandes personnalisées. %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Symboles.
+% Verset et répons. Si vous ne savez pas saisir directement ℣. ou ℟., utilisez
+% respectivement \vb. ou \rb. ; si vous ne savez pas saisir †, utilisez \+ ;
+% pour les astérisques, utilisez \*
+\catcode`\℣=\active \def ℣#1{%
+	{\rubrum \Vbar}%
+	\mbox{\hspace{-.2ex}{\rubrum#1}}%
+}
+\def\vb#1{℣{#1}}
+\catcode`\℟=\active \def ℟#1{%
+	{\rubrum \Rbar}%
+	\mbox{{\rubrum#1}}%
+}
+\def\rb#1{℟{#1}}
+% Flexe et mètre dans les psaumes.
+\def\+{†}
+% \renewcommand{\*}{\raisebox{.5ex}[0pt][0pt]{%
+% 	\rubrum\includegraphics[width=.9ex]{Asterisque}}%
+% }
+\renewcommand{\*}{{\rubrum *}}
+\let\GreOldStar\GreStar
+\renewcommand{\GreStar}{{\rubrum\GreOldStar}}
+\def\gredagger{†}
+%\let\grestar\*
+%\let\greheightstar\*
+% Croix
+\catcode`\✠=\active \def ✠{\grecross}
+\def\crux{✠}
+
+
+%%% Pour les textes bilingues.
+\newcommand{\versio}[3][1]{%
+	{\parindent=0pt
+	\begin{paracol}{2}
+	\ensurevspace{#1\baselineskip}
+	\switchcolumn\switchcolumn*
+ 	\begin{latin} #2\looseness=-1 \end{latin}
+	\switchcolumn
+	\begin{french} #3\looseness=-1 \end{french}
+	\end{paracol}%
+	}%
+}
+
+
+%%% Raccourcis pour des éléments revenant souvent.
+% Versets et répons.
+\newcommand{\VR}[3][3]{\versio[#1]{#2}{#3}}
+\newcommand{\versiculus}[3][3]{\smallskip\VR[#1]{℣.~#2}{℣.~#3}}
+\newcommand{\responsum}[3][3]{\VR[#1]{℟.~#2}{℟.~#3}}
+
+% Oraisons.
+\newcommand{\oratio}[3][2]{%
+	\versio[#1]{%
+		Orémus.\par\nopagebreak
+		#2 \hspace{0ex plus .5\linewidth} \linebreak[0] \mbox{℟. Amen.}
+		\hspace{1em}%
+	}{%
+		Prions.\par\nopagebreak
+		#3 \hspace{0ex plus \linewidth} \linebreak[0] \mbox{℟. Ainsi soit-il.}
+		\hspace{1em}%
+	}
+	\pagebreak[3]
+}
+
+% Litanies : environnement et versets.
+% \rinvocatio est à utiliser quand on change de réponse.
+\newenvironment{litaniae}{%
+	\begin{paracol}{2}
+	\let\oldparindent\parindent
+	\parindent=0pt
+	\switchcolumn
+}{%
+	\let\parindent\oldparindent
+	\end{paracol}%
+}
+\newcommand{\invocatio}[3][2]{%
+	\ensurevspace{#1\baselineskip}%
+	\switchcolumn* #2 \switchcolumn #3%
+}
+\newcommand{\rinvocatio}[4]{
+	\ensurevspace{3\baselineskip}%
+	\switchcolumn*#1 \switchcolumn #2%
+	\switchcolumn* \hfill ℟.~#3 \switchcolumn \hfill ℟.~#4%
+}
+
+\newenvironment{priere}{%
+	\begin{french}%
+	\addtolength{\parskip}{.3\baselineskip}
+}{%
+	\hfill \mbox{℟.~Ainsi soit-il.}\par
+	\addtolength{\parskip}{-.3\baselineskip}
+	\end{french}%
+}
+
+% Rubriques propres au temps pascal.
+\newcommand{\TP}[1]{{\mbox{\rubrum\emph{(T.\,P.}}}~#1\mbox{\rubrum\emph{)}}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Réglages et commandes pour le chant grégorien% %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Réglages pour les lignes de portée.
+\gresetlinecolor{gregoriocolor}
+\grechangestafflinethickness{40}
+\grechangedim{spacelinestext}{2.9ex}{scalable}
+\grechangedim{abovelinestextraise}{0ex}{scalable}
+\makeatletter
+\grechangedim{bar@finalfinalis@standalone@notext}{1.5ex}{scalable}
+\makeatother
+
+%%% Espace entre les annotations au-dessus de la lettrine
+\grechangedim{annotationseparation}{.4ex}{scalable}
+%\grechangedim{annotationraise}{-1mm}{fixed}
+
+%%% Insertion d'une partition
+\newcommand{\cantus}[4]{{%
+	\greannotation{{\rubrum\scriptsize \textsc{#3}}}
+	\greannotation{\raisebox{.5mm}{\rubrum\scriptsize \textsc{#4}}}
+	{\widowpenalties 3 0 0 0 \clubpenalties 3 0 0 0%\nowidow[1]\noclub[1]
+		\gregorioscore{gabc/#1/#2.gabc}%
+	}
+}
+\smallskip
+\smallskip
+}
+
+%%% Traduction des pièces notées, avant ou après.
+\newcommand{\vulgo}[1]{\noindent{\small #1\par}\smallskip\nopagebreak}
+
+%%% Psaumes.
+%Pour les syllabes d'accent et de préparation dans les Psaumes
+%accent
+\newcommand{\ac}[1]{\textbf{#1}}
+\newcommand{\nac}{\bfseries}
+%syllabe de préparation
+\newcommand{\pr}[1]{\textit{#1}}
+\newcommand{\npr}{\itshape}
+%survenante anticipée d'accent
+\newcommand{\sac}[1]{\ac{#1}}
+%syllabe de fin, atone
+\newcommand{\point}[1]{\textit{#1}}
+%dernier accent, ses syllabes de préparation et survenante
+\newcommand{\aca}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{Requiem}
+		\OR \equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{1D}
+		\OR \equal{\commandkey{tonus}}{1D2}
+		\OR \equal{\commandkey{tonus}}{1f}
+		\OR \equal{\commandkey{tonus}}{1g}
+		\OR \equal{\commandkey{tonus}}{1g2}
+		\OR \equal{\commandkey{tonus}}{1g3}
+		\OR \equal{\commandkey{tonus}}{1a}
+		\OR \equal{\commandkey{tonus}}{1a2}
+		\OR \equal{\commandkey{tonus}}{1a3}
+		\OR \equal{\commandkey{tonus}}{2D}
+		\OR \equal{\commandkey{tonus}}{3a}
+		\OR \equal{\commandkey{tonus}}{3a}
+		\OR \equal{\commandkey{tonus}}{3a2}
+		\OR \equal{\commandkey{tonus}}{3b}
+		\OR \equal{\commandkey{tonus}}{3g}
+		\OR \equal{\commandkey{tonus}}{3g2}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}
+		\OR \equal{\commandkey{tonus}}{5a}
+		\OR \equal{\commandkey{tonus}}{6F}
+		\OR \equal{\commandkey{tonus}}{6F-alt}
+		\OR \equal{\commandkey{tonus}}{7a}
+		\OR \equal{\commandkey{tonus}}{7b}
+		\OR \equal{\commandkey{tonus}}{7c}
+		\OR \equal{\commandkey{tonus}}{7c2}
+		\OR \equal{\commandkey{tonus}}{7d}
+		\OR \equal{\commandkey{tonus}}{8c}
+		\OR \equal{\commandkey{tonus}}{8G}
+		\OR \equal{\commandkey{tonus}}{per}%
+	}{%
+		\ac{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\praa}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{Requiem}
+		\OR \equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{1D}
+		\OR \equal{\commandkey{tonus}}{1D2}
+		\OR \equal{\commandkey{tonus}}{1f}
+		\OR \equal{\commandkey{tonus}}{1g}
+		\OR \equal{\commandkey{tonus}}{1g2}
+		\OR \equal{\commandkey{tonus}}{1g3}
+		\OR \equal{\commandkey{tonus}}{1a}
+		\OR \equal{\commandkey{tonus}}{1a2}
+		\OR \equal{\commandkey{tonus}}{1a3}
+		\OR \equal{\commandkey{tonus}}{2D}
+		\OR \equal{\commandkey{tonus}}{3a}
+		\OR \equal{\commandkey{tonus}}{3a2}
+		\OR \equal{\commandkey{tonus}}{3b}
+		\OR \equal{\commandkey{tonus}}{3g}
+		\OR \equal{\commandkey{tonus}}{3g2}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}
+		\OR \equal{\commandkey{tonus}}{6F}
+		\OR \equal{\commandkey{tonus}}{6F-alt}
+		\OR \equal{\commandkey{tonus}}{8c}
+		\OR \equal{\commandkey{tonus}}{8G}
+		\OR \equal{\commandkey{tonus}}{per}%
+	}{%
+		\pr{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prab}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{1D}
+		\OR \equal{\commandkey{tonus}}{1D2}
+		\OR \equal{\commandkey{tonus}}{1f}
+		\OR \equal{\commandkey{tonus}}{1g}
+		\OR \equal{\commandkey{tonus}}{1g2}
+		\OR \equal{\commandkey{tonus}}{1g3}
+		\OR \equal{\commandkey{tonus}}{1a}
+		\OR \equal{\commandkey{tonus}}{1a2}
+		\OR \equal{\commandkey{tonus}}{1a3}
+		\OR \equal{\commandkey{tonus}}{3a2}
+		\OR \equal{\commandkey{tonus}}{3g}
+		\OR \equal{\commandkey{tonus}}{3g2}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}
+		\OR \equal{\commandkey{tonus}}{6F}
+		\OR \equal{\commandkey{tonus}}{8c}
+		\OR \equal{\commandkey{tonus}}{8G}%
+	}{%
+		\pr{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prac}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{3g2}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}%
+	}{%
+		\pr{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\saca}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{1D2}
+		\OR \equal{\commandkey{tonus}}{4E}%
+	}{%
+		\sac{#1}
+	}{%
+		#1%
+	}%
+}
+%avant-dernier accent, sa syllabe de préparation
+\newcommand{\acb}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{5a}
+		\OR \equal{\commandkey{tonus}}{7a}
+		\OR \equal{\commandkey{tonus}}{7b}
+		\OR \equal{\commandkey{tonus}}{7c}
+		\OR \equal{\commandkey{tonus}}{7c2}
+		\OR \equal{\commandkey{tonus}}{7d}%
+	}{%
+		\ac{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prba}[1]{#1}
+%dernier accent du 1° membre, ses syllabes de préparation et survenante
+\newcommand{\acc}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{Requiem}
+		\OR \equal{\commandkey{tonus}}{communio-1}
+		\OR \equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{1D}
+		\OR \equal{\commandkey{tonus}}{1D2}
+		\OR \equal{\commandkey{tonus}}{1f}
+		\OR \equal{\commandkey{tonus}}{1g}
+		\OR \equal{\commandkey{tonus}}{1g2}
+		\OR \equal{\commandkey{tonus}}{1g3}
+		\OR \equal{\commandkey{tonus}}{1a}
+		\OR \equal{\commandkey{tonus}}{1a2}
+		\OR \equal{\commandkey{tonus}}{1a3}
+		\OR \equal{\commandkey{tonus}}{2D}
+		\OR \equal{\commandkey{tonus}}{3a}
+		\OR \equal{\commandkey{tonus}}{3a2}
+		\OR \equal{\commandkey{tonus}}{3b}
+		\OR \equal{\commandkey{tonus}}{3g}
+		\OR \equal{\commandkey{tonus}}{3g2}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}
+		\OR \equal{\commandkey{tonus}}{5a}
+		\OR \equal{\commandkey{tonus}}{6F}
+		\OR \equal{\commandkey{tonus}}{6F-alt}
+		\OR \equal{\commandkey{tonus}}{7a}
+		\OR \equal{\commandkey{tonus}}{7b}
+		\OR \equal{\commandkey{tonus}}{7c}
+		\OR \equal{\commandkey{tonus}}{7c2}
+		\OR \equal{\commandkey{tonus}}{7d}
+		\OR \equal{\commandkey{tonus}}{8c}
+		\OR \equal{\commandkey{tonus}}{8G}
+		\OR \equal{\commandkey{tonus}}{per}%
+	}{%
+		\ac{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prca}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}
+		\OR \equal{\commandkey{tonus}}{6F}
+		\OR \equal{\commandkey{tonus}}{per}%
+	}{%
+		\pr{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prcb}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{4A}
+		\OR \equal{\commandkey{tonus}}{4c}
+		\OR \equal{\commandkey{tonus}}{4E}
+		\OR \equal{\commandkey{tonus}}{4g}
+		\OR \equal{\commandkey{tonus}}{per}%
+	}{%
+		\pr{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prcc}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-8}
+		\OR \equal{\commandkey{tonus}}{per}%
+	}{%
+		\pr{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\sacc}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{3a}
+		\OR \equal{\commandkey{tonus}}{3b}%
+	}{%
+		\sac{#1}%
+	}{%
+		#1%
+	}%
+}
+%avant-dernier accent du 1° membre, sa syllabe de préparation
+\newcommand{\acd}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-1}
+		\OR \equal{\commandkey{tonus}}{1D}
+		\OR \equal{\commandkey{tonus}}{1D2}
+		\OR \equal{\commandkey{tonus}}{1f}
+		\OR \equal{\commandkey{tonus}}{1g}
+		\OR \equal{\commandkey{tonus}}{1g2}
+		\OR \equal{\commandkey{tonus}}{1g3}
+		\OR \equal{\commandkey{tonus}}{1a}
+		\OR \equal{\commandkey{tonus}}{1a2}
+		\OR \equal{\commandkey{tonus}}{1a3}
+		\OR \equal{\commandkey{tonus}}{3a}
+		\OR \equal{\commandkey{tonus}}{3a2}
+		\OR \equal{\commandkey{tonus}}{3b}
+		\OR \equal{\commandkey{tonus}}{3g}
+		\OR \equal{\commandkey{tonus}}{3g2}
+		\OR \equal{\commandkey{tonus}}{6F-alt}
+		\OR \equal{\commandkey{tonus}}{7a}
+		\OR \equal{\commandkey{tonus}}{7b}
+		\OR \equal{\commandkey{tonus}}{7c}
+		\OR \equal{\commandkey{tonus}}{7c2}
+		\OR \equal{\commandkey{tonus}}{7d}%
+	}{%
+		\ac{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\prda}[1]{#1}
+%un accent spécial pour les versets notés
+\newcommand{\aci}[1]{%\fontsize{1.1\taillepolice}{1.1\taillepolice}%
+%\fontseries{b}%
+\selectfont\textbf{#1}}
+%syllabes de fin
+\newcommand{\pointi}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-1}%
+	}{%
+		\point{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\pointii}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-1}%
+	}{%
+		\point{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\pointiii}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-1}%
+	}{%
+		\point{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\pointiv}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-1}%
+	}{%
+		\point{#1}%
+	}{%
+		#1%
+	}%
+}
+\newcommand{\pointv}[1]{%
+	\ifthenelse{%
+		\equal{\commandkey{tonus}}{communio-1}%
+	}{%
+		\point{#1}%
+	}{%
+		#1%
+	}%
+}
+
+
+%Référence des Psaumes, centrée, au format d'une rubrique
+\def\ps#1{{\centering\rubrica{Ps. #1.}\par\smallskip}}
+
+%Pour saisir un verset de Psaume
+\newcounter{numerus}
+\setcounter{numerus}{2}
+\newcounter{versus}
+\newcounter{ultimus}
+\newcommand{\versus}[1]{%
+\stepcounter{versus}
+\ifthenelse{%
+	\(\commandkey{primus} = \value{versus}%
+	\OR \commandkey{primus} < \value{versus}\)%
+	\AND \(\value{ultimus} > \value{versus}%
+	\OR \commandkey{ultimus} = 0\)
+}{%
+	\noindent\arabic{numerus}.\hspace{1ex}#1\par\stepcounter{numerus}%
+}\par
+}
+\newcommand{\versusgloria}[1]{%
+	\stepcounter{versus}
+	\noindent\arabic{numerus}.\hspace{1ex}#1\par\stepcounter{numerus}%
+}
+
+%Pour appeler un Psaume, un Cantique, le Gloria
+\newkeycommand\psalmus[tonus,primus=1,ultimus=0,numerus=\value{numerus}][1]{%
+	\setcounter{versus}{0}%
+	\setcounter{numerus}{\commandkey{numerus}}%
+	\setcounter{ultimus}{\commandkey{ultimus} + 1}%
+	\input{gabc/Psaume/Ps-#1}%
+}
+\newkeycommand\canticum[tonus=1,primus=1,ultimus=0,numerus=\value{numerus}][1]{%
+	\setcounter{versus}{0}%
+	\setcounter{numerus}{\commandkey{numerus}}%
+	\setcounter{ultimus}{\commandkey{ultimus} + 1}%
+	\input{gabc/Psaume/Ps-#1}%
+}
+\newkeycommand{\gloria}[tonus]{%
+	\setcounter{versus}{\value{ultimus} - 1}
+	\input{gabc/Psaume/Gloria}
+}
+\newkeycommand{\gloriacommunion}[tonus]{%
+	\setcounter{versus}{\value{ultimus} - 1}
+	\bigskip
+	\input{gabc/Psaume/Gloria-communion}
+}

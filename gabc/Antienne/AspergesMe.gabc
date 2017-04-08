@@ -1,0 +1,21 @@
+%Compilation:gregorio AspergesMe.gabc -o AspergesMe-auto.tex:
+%Apercu:gedit AspergesMe-auto.tex:
+name:Asperges me;
+annotation:Ant.;
+mode:7;
+office-part:Antiphon;
+book:Graduale Romanum, 1961, page(s) 1*;
+occasion:;
+transcriber:Andrew Hinkley;
+transcription-date:2009;
+commentary:;
+%%
+(c2) A-(cd)spér(fvED)ges(ef) me,(g.) *(,) Dó-(h!iwj)mi(ji)ne,(hg) (,) hys(h)só(g_f)po,(ef) et(gvFD') mun(e)dá(cdc___)bor:(c.) (:)
+la(cd)vá(fvED)bis(ef) me,(g.) (;) et(g!hw!ivHG) su(fe)per(d') ni(f)vem(ef) de(gvFD')al(e)bá(cdc___)bor.(c.) (::)
+
+<i><v>{\rubrum Ps. 50 }</v></i> M{i}(cfe)se(fg)ré(g')re(g) me(gi)i,(h) De(hg)us,(gh..) *(:)
+se(ge)cún(fg~)dum(g') ma(g)gnam(g') mi(g)se(g')ri(g)cór(g!hwi)di(g')am(f) tu(fff)am.(dc..) (::)
+
+Gló(cfe)ri(fg)a(g) Pa(g)tri(g') et(g) Fí(g)li(g)o,(g.) (,) et(g) Spi(g)rí(gi)tu(h')i(h) San(hg~)cto:(gh..) *(:)
+Sic(ge)ut(fg) e(g)rat(g') in(g) prin(g)cí(g')pi(g)o,(g.) (,) et(g) nunc,(gi) et(h) sem(hg~)per,(gh..) (:)
+et(ge) in(fg) sǽ(g)cu(g)la(g') sæ(g)cu(g!hwi)ló(g')rum.(f) A(fff)men.(dc..) (::)

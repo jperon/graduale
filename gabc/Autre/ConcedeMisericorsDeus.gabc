@@ -1,0 +1,17 @@
+%Compilation:gregorio ConcedeMisericorsDeus.gabc
+%Apercu:gedit ConcedeMisericorsDeus.tex
+name:ConcedeMisericorsDeus;
+office-part:Autre;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le célébrant}</alt>
+O(h)ré(h)mus.(f.) (:)
+
+Con(h)cé(h)de,(h) mi(h)sé(h)ri(h)cors(h) De(h)us,(h) fra(h)gi(h)li(h)tá(h)ti(h) no(h)stræ(h) præ(h)sí(h)di(f)um :(f'_) +(,) ut(h) qui(h) san(h)ctæ(h) De(h)i(h) Ge(h)ne(h)trí(h)cis(h) me(h)mó(h)ri(g)am(f) á(h)gi(h)mus,(h.) *(;)
+in(h)ter(h)ces(h)si(h)ó(h)nis(h) e(h)ius(h) au(h)xí(h)li(h)o(h) a(h) no(h)stris(h) in(h)i(h)qui(h)tá(h)ti(h)bus(h) re(h)sur(h)gá(h)mus.(f.) (:)
+
+Per(h) e(h)ún(h)dem(h) Chri(h)stum(h) Dó(h)mi(h)num(h) no(h)strum.(f.) (::)
+
+<alt>\rubrica{Tous}</alt>
+℟. {A}(g.)men.(h.) (::)

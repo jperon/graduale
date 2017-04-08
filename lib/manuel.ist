@@ -1,0 +1,12 @@
+%headings_flag 1
+%heading_prefix "{\\large "
+%heading_suffix "\\hfil}\\nopagebreak\n"
+%symhead_negative "symboles"
+%symhead_positive "Symboles"
+
+delim_0 " \\dotfill \ "
+delim_1 " \\dotfill \ "
+delim_2 " \\dotfill \ "
+
+preamble "{\\Large\\bfseries\\centering Index des chants \\par}\n\\smallskip\\setlist[itemize]{leftmargin=0pt,label={}}\n\\begin{multicols}{2}\n\\begin{itemize}\n {\\normalsize\n"
+postamble "\n} \n\\end{itemize}\\end{multicols}\n"

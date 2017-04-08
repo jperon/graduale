@@ -1,0 +1,12 @@
+%Compilation:gregorio PostPartum.gabc
+%Apercu:gedit PostPartum.tex
+name:PostPartum;
+office-part:Verset;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le chantre}</alt>
+℣. P{o}st(h) par(h)tum(h) Vir(h)go(h) in(h)vi(h)o(h)lá(h)ta(h) per(h)man(h)sí(h)sti.(f.) (::) (Z)
+
+<alt>\rubrica{Tous}</alt>
+℟. D{e}(h)i(h) Gé(h)ne(h)trix(h) in(h)ter(h)cé(h)de(h) pro(h) no(h)bis.(f.) (::)

@@ -1,0 +1,9 @@
+%Compilation:gregorio Requiescant.gabc
+name: requiem;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le chantre}</alt>
+℣<v>{\rubrum.}</v> R{e}(g)qui(h)é(h)sca<v>[</v>n<v>]</v>t(g) in(h) pa(hg)ce.(g.) (::)
+
+℟<v>{\rubrum.}</v> A<alt>\rubrica{Tous}</alt>(g)men.(gh..) (::)

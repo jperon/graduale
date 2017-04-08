@@ -1,0 +1,138 @@
+\RequirePackage{gredoc}
+\RequirePackage{makeidx}
+\RequirePackage{pbox}
+
+\newsavebox\texteCouplet
+\newcounter{chant}
+\setcounter{chant}{0}
+\newcounter{numero}
+\newcounter{numerocouplet}
+\newlength{\decalage}
+\newlength{\complement}
+\newlength{\htbis}
+\newlength{\lrbis}
+\newlength{\dcbis}
+\newlength{\avanttitre}
+
+\newkeycommand{\chanson}[%
+                         position=defaut%
+                         ,decalage=5mm%
+                         ,premiercouplet=1,numero=2%
+                         ,refrain=oui%
+                         ][1]{%
+  \needspace{\baselineskip}
+  \setcounter{numerocouplet}{0}
+  \setcounter{numero}{\commandkey{numero}-1}
+  \ifthenelse{\equal{\commandkey{position}}{2col}}{%
+    \setlength{\decalage}{\commandkey{decalage}}%
+    \setlength{\complement}{\linewidth-\decalage}%
+    \begin{multicols}{2}
+    {%
+    \input{#1}%
+    }
+    \end{multicols}%
+  }{%
+    {\input{#1}}%
+  }
+}
+
+\newcommand{\strophe}[2][VIDE]{{%
+    \widowpenalties 3 10000 10000 1000 \clubpenalties 3 10000 10000 1000
+    \ifthenelse{\equal{\commandkey{position}}{2col}}{%
+      \def\position{2col}%
+      \pagebreak[3]%
+      \raggedright%
+      \everypar = {\parshape=2
+                   0cm\linewidth
+                   \decalage\complement}
+      {#2\par}
+      \vspace{1ex plus 2ex}
+    }{%
+      \ifthenelse{\equal{\commandkey{position}}{defaut} \AND \equal{#1}{VIDE}}{%
+        \def\position{centre}%
+      }{%
+        \def\position{}%
+        \vspace{0ex plus 2\baselineskip minus .5\baselineskip}\par
+        {\parindent=0pt
+         \begin{paracol}{2}
+         \raggedright%
+          \ensurevspace{1\baselineskip}
+          \switchcolumn\switchcolumn*
+          #2
+          \switchcolumn
+          #1
+         \end{paracol}%
+        \vspace{1ex plus 2ex}
+        }%
+      }
+      \ifthenelse{\equal{\commandkey{position}}{centre}%
+                  \OR \equal{\position}{centre}}{%
+        {\vspace{0ex plus 2\baselineskip minus .5\baselineskip}\par
+        \centering #2\par}
+        \vspace{2ex plus 2ex minus .5ex}
+      }{}%
+    }
+}}
+
+\newcommand{\couplet}[2][VIDE]{%
+  \stepcounter{numerocouplet}%
+  \ifthenelse{%
+              \commandkey{premiercouplet} = \value{numerocouplet}%
+              \OR \commandkey{premiercouplet} < \value{numerocouplet}%
+  }{%
+  	\stepcounter{numero}%
+	\strophe[#1]{\arabic{numero}.~#2}}{}
+}
+
+\newcommand{\refrain}[2][VIDE]{%
+  \ifthenelse{\equal{\commandkey{refrain}}{oui}%
+  }{\strophe[#1]{\itshape #2}}{}
+}
+
+\newkeycommand{\bis}[texte=bis,espace=1.5ex][][1]{{%
+	\settominwidth{\lrbis}{\pbox{\linewidth}{\arabic{numero}.~#1}}%
+	\setlength{\dcbis}{\lrbis + .3\linewidth - .3\lrbis}
+	\settototalheight{\htbis}{\pbox{\linewidth}{\arabic{numero}.~#1}}%
+	\setlength{\htbis}{.8\htbis}%
+	#1\\*
+	\vspace{-\baselineskip}
+	\hspace{\dcbis}
+	\makebox[0pt]{%
+		\raisebox{.6\depth}[0pt][0pt]{%
+			\hspace{\commandkey{espace}}%
+			\resizebox{\width}{\htbis}{%
+				\textup{\}}%
+			}%
+			~%
+			\raisebox{.2\htbis}{%
+				\textit{\footnotesize\commandkey{texte}}%
+			}%
+		}%
+	}%
+%	\ifthenelse{\equal{\position}{2col}}{\hspace{.8\dcbis}}{\hspace{.4\dcbis}}%
+}}
+
+\newkeycommand{\vbis}[texte=bis]{\textit{\footnotesize (\commandkey{texte})}}
+
+\newcommand{\ter}[1]{%
+	\bis[texte=ter]{#1}%
+}
+
+\newkeycommand{\titre}[espace=8,table=idem][][1]{%
+	\setlength{\avanttitre}{\baselineskip}
+	\multiply\avanttitre by \commandkey{espace}
+	\vspace{1em plus 6\baselineskip}\needspace{\avanttitre}%
+	\def\letitre{\commandkey{table}}%
+	\ifthenelse{\equal{\letitre}{idem}}{%
+		\index{#1}%
+	}{%
+		\ifthenelse{\equal{\letitre}{non}}{%
+		}{%
+		\index{\commandkey{table}}
+		}%
+	}
+	{\subsection*{#1}}
+	\vspace{1ex plus .7ex minus .2ex}
+}
+
+\makeindex

@@ -1,0 +1,17 @@
+*.aux
+*.gaux
+*.idx
+*.log
+*.out
+*.synctex.gz*
+*~
+*.toc
+.*.xml
+*.pdf
+.~lock*
+*.gtex
+tmp_ly
+*-auto.tex
+*.fdb_latexmk
+*.ilg
+*.ind

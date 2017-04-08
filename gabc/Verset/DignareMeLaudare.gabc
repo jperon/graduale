@@ -1,0 +1,12 @@
+%Compilation:gregorio DignareMeLaudare.gabc
+%Apercu:gedit DignareMeLaudare.tex
+name:DignareMeLaudare;
+office-part:Verset;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le chantre}</alt>
+℣. D{i}(h)gná(h)re(h) me(h) lau(h)dá(h)re(h) te(h) Vir(h)go(h) sa(h)crá(h)ta.(f.) (::) (Z)
+
+<alt>\rubrica{Tous}</alt>
+℟. D{a}(h) mi(h)hi(h) vir(h)tú(h)tem(h) con(h)tra(h) ho(h)stes(h) tu(h)os.(f.) (::)

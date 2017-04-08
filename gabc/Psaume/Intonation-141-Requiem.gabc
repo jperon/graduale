@@ -1,0 +1,11 @@
+%Compilation:gregorio Intonation-141-Requiem.gabc
+%Apercu:gedit Intonation-141-Requiem.tex
+name:Intonation-141-Requiem;
+office-part:Psaume;
+initial-style:0;
+%%
+
+(c4) 1. V{o}(f)ce(gh) me(h)a(h) ad(h) Dó(h)mi(h)num(h) cla(h)má(g)(fr)vi :(f.) *(:)
+vo(h)ce(h) me(h)a(h) ad(h) Dó(h)mi(h)num(h) de(h)<v>\pr{pr}</v>{<v>\pr{e}</v>}-(f)<v>\aci{c}</v>{<v>\aci{á}</v>}(g)tus(gr) sum.(g.) (::)
+
+<i><v>{\rubrum Flexa :}</v></i> D{ó}(h)mi(gr)ne, +(g.! h! h! h) (::)

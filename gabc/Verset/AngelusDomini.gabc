@@ -1,0 +1,12 @@
+%Compilation:gregorio AngelusDomini.gabc
+%Apercu:gedit AngelusDomini.tex
+name:AngelusDomini;
+office-part:Verset;
+initial-style:0;
+%%
+
+(c3) (Z) <alt>\rubrica{Le chantre}</alt>
+℣. {A}n(h)ge(h)lus(h) Dó(h)mi(h)ni(h) nun(h)ti(h)á(h)vit(h) Ma(h)rí(h)æ.(f.) (::) (Z)
+
+<alt>\rubrica{Tous}</alt>
+℟. {E}t(h) con(h)cé(h)pit(h) de(h) Spí(h)ri(h)tu(h) San(h)cto.(f.) (::)

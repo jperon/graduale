@@ -1,0 +1,16 @@
+%Compilation:gregorio BenediciteDominum.gabc
+%Esclaves:gedit BenediciteDominum.tex
+name:Benedícite Dóminum;
+office-part:graduale;
+mode:3.;
+%%
+
+(c4) BE(g)ne(g)dí(hj)ci(j)te(j) Dó(ij)mi(j)num(j.) *(,) o(j)mnes(j) An(j)ge(jjj_h)li(hk) e(kj~)ius :(jkjji.) (;) pot(g)én(gh~)tes(h) vir(h)tú(jj)te,(i_h) (;) qui(gfg) fá(hg!/ji)ci(j)tis(j) ver(hj~)bum(jj) e(gh~)ius,(hih___.) (:)
+ad(g) au(h)di(hkj)én(i)dam(jj!//jj) vo(h_g)cem(g_f) (,) ser(fh~)mó(h_g!/jjvH'G)num(g_e) e(fgF'E)ius.(e.) (::)
+
+<c><i>T.P.</i></c> Al(gj~)le(jjj_g)lú(ikj)ia,(j_i) (,) al(j)le(jjghvGE)lú(fgF'E)ia.(e.) (::)
+
+<c><i>Ps.</i></c> Bé(g)ne(hj)dic(j) á(j)ni(j)ma(j) me(k)a(j) Dó(j)mi(ih)no :(jjj) *(:)
+et(ig) ó(hj)mni(j)a(j) quæ(j) in(j)tra(j) me(j) sunt,(j.) (,) nó(j)mi(j)ni(jji) san(hg)cto(h') e(i)ius.(gh..) (::)
+
+Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) E(j) u(jji) o(hg) u(h') a(i) e.(gh..) (::)

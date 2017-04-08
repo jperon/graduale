@@ -1,0 +1,9 @@
+%Compilation:gregorio PaterNoster.gabc
+%Apercu:gedit PaterNoster.tex
+name:PaterNoster;
+office-part:Verset;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le célébrant}</alt>
+P{a}(h)ter(h) no(h)ster.(f.) (::)

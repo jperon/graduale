@@ -1,0 +1,12 @@
+%Compilation:gregorio OraProNobis.gabc
+%Apercu:gedit OraProNobis.tex
+name:OraProNobis;
+office-part:Verset;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le chantre}</alt>
+℣. {O}(h)ra(h) pro(h) no(h)bis(h) san(h)cta(h) De(h)i(h) Gé(h)ne(f)trix.(f.) (::)
+
+<alt>\rubrica{Tous}</alt>
+℟. {U}t(h) di(h)gni(h) ef(h)fi(h)ci(h)á(h)mur(h) pro(h)mis(h)si(h)ó(h)ni(h)bus(h) Chri(h)sti.(f.) (::)

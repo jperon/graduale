@@ -1,0 +1,12 @@
+%Compilation:gregorio GaudeEtLaetare.gabc
+%Apercu:gedit GaudeEtLaetare.tex
+name:GaudeEtLaetare;
+office-part:Verset;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le chantre}</alt>
+℣. G{au}(h)de(h) et(h) læ(h)tá(h)re(h) Vir(h)go(h) Ma(h)rí(h)a,(h) al(h)le(h)lú(h)ia.(f.) (::) (Z)
+
+<alt>\rubrica{Tous}</alt>
+℟. Qu{i}(h)a(h) sur(h)ré(h)xit(h) Dó(h)mi(h)nus(h) ve(h)re,(h) al(h)le(h)lú(h)ia.(f.) (::)

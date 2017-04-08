@@ -1,0 +1,13 @@
+%Compilation:gregorio DeusQuiSalutis.gabc
+%Apercu:gedit DeusQuiSalutis.tex
+name:DeusQuiSalutis;
+office-part:Autre;
+initial-style:0;
+%%
+
+(c3) <alt>\rubrica{Le célébrant}</alt>
+<v>\ </v>{O}(h)ré(h)mus.(f.) (:) De(h)us,(h) qui(h) sa(h)lú(h)tis(h) æ(h)tér(h)næ,(h) be(h)á(h)tæ(h) Ma(h)rí(h)æ(h) vir(h)gi(h)ni(h)tá(h)te(h) fe(h)cún(h)da,(h) hu(h)má(h)no(h) gé(h)ne(h)ri(h) prǽ(h)mi(h)a(h) præ(h)sti(h)tí(h)sti :(f'_) +(,) trí(h)bu(h)e,(h) quǽ(h)su(h)mus :(h) ut(h) i(h)psam(h) pro(h) no(h)bis(h) in(h)ter(h)cé(h)de(h)re(h) sen(g)ti(f)á(h)mus,(h.) *(;)
+per(h) quam(h) me(h)ru(h)í(h)mus(h) au(h)ctó(h)rem(h) vi(h)tæ(h) sus(h)cí(h)pe(h)re,(h) Dó(h)mi(h)num(h) no(h)strum(h) Ie(h)sum(h) Chri(h)stum(h) Fí(h)li(h)um(h) tu(h)um.(f.) (::)
+
+<alt>\rubrica{Tous}</alt>
+℟. {A}(g.)men.(h.) (::)

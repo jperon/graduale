@@ -1,4 +1,4 @@
-# Completorium
+# Graduale
 
 Ce document est un projet de graduel grégorien.
 

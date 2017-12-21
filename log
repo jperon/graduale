@@ -3,13 +3,13 @@ Output :
 
 This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Lourdes/gabc/Introit/main.tex
+(/opt/musite/static/docs/tmp/Lourdes/gabc/Antienne/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2017/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 1.718 seconds
-Babel <3.13> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.130 seconds
+Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -73,8 +73,7 @@ xmf/luatex-cache/generic/fonts/otl/linlibertine-rb.luc)(load luc: /var/lib/texm
 f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-No file main.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -84,15 +83,19 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./DominusFortitudo-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdfte
-x.map}] (./main.aux))
- 36815 words of node memory still in use:
-   1211 hlist, 154 vlist, 615 rule, 1 local_par, 760 glue, 764 kern, 154 penalt
-y, 302 glyph, 2789 attribute, 75 glue_spec, 471 attribute_list, 1 write, 1 user
-_defined, 306 pdf_colorstack nodes
-   avail lists: 2:8559,3:1156,4:43,5:1234,6:674,7:395,8:47,9:530,10:31,11:4
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
+(./EtValdeMane-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+}] (./main.aux))
+ 8493 words of node memory still in use:
+   259 hlist, 35 vlist, 139 rule, 1 local_par, 165 glue, 169 kern, 35 penalty, 
+64 glyph, 647 attribute, 75 glue_spec, 114 attribute_list, 1 write, 1 user_defi
+ned, 68 pdf_colorstack nodes
+   avail lists: 2:2249,3:292,4:11,5:331,6:176,7:85,8:14,9:137,10:3,11:3
+Module gregoriotex Warning: Line heights or variable brace lengths may have cha
+nged. Rerun to fix. on input line 0
+</usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
+xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts/opentype/
+linux-libertine/LinLibertine_R.otf>
+Output written on main.pdf (1 page, 11332 bytes).
 Transcript written on main.log.
 
 

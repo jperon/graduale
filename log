@@ -1,15 +1,15 @@
-Output :
+Sortie :
 ========
 
 This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Lourdes/gabc/Antienne/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Repons/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2017/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.130 seconds
-Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.298 seconds
+Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -57,10 +57,10 @@ var/lib/texmf/luatex-cache/generic/fonts/otl/greciliae-hole.luc)
 (/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
 (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def)))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def))
@@ -83,19 +83,23 @@ f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./EtValdeMane-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-}] (./main.aux))
- 8493 words of node memory still in use:
-   259 hlist, 35 vlist, 139 rule, 1 local_par, 165 glue, 169 kern, 35 penalty, 
-64 glyph, 647 attribute, 75 glue_spec, 114 attribute_list, 1 write, 1 user_defi
-ned, 68 pdf_colorstack nodes
-   avail lists: 2:2249,3:292,4:11,5:331,6:176,7:85,8:14,9:137,10:3,11:3
+(./AnimamMeam-5_0_2.gtex
+Overfull \hbox (8.17033pt too wide) detected at line 378
+|
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
+(see the transcript file for additional information)
+ 57994 words of node memory still in use:
+   1923 hlist, 243 vlist, 971 rule, 1 local_par, 1205 glue, 1209 kern, 242 pena
+lty, 480 glyph, 4391 attribute, 75 glue_spec, 738 attribute_list, 1 write, 1 us
+er_defined, 484 pdf_colorstack nodes
+   avail lists: 1:2,2:12637,3:1637,4:46,5:1886,6:1045,7:585,8:58,9:804,10:28,11
+:3
 Module gregoriotex Warning: Line heights or variable brace lengths may have cha
 nged. Rerun to fix. on input line 0
 </usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
-xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts/opentype/
-linux-libertine/LinLibertine_R.otf>
-Output written on main.pdf (1 page, 11332 bytes).
+xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/texlive/texmf-d
+ist/fonts/opentype/public/libertine/LinLibertine_R.otf>
+Output written on main.pdf (2 pages, 19607 bytes).
 Transcript written on main.log.
 
 
@@ -105,7 +109,7 @@ Transcript written on main.log.
 
 
 
-Errors :
+Erreurs :
 =========
 
 

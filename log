@@ -3,13 +3,13 @@ Sortie :
 
 This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Repons/main.tex
+(/opt/musite/static/docs/tmp/Lourdes/gabc/Trait/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2017/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.298 seconds
-Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.152 seconds
+Babel <3.16> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -83,23 +83,30 @@ f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./AnimamMeam-5_0_2.gtex
-Overfull \hbox (8.17033pt too wide) detected at line 378
+(./Commovisti-5_0_2.gtex
+Overfull \hbox (8.45567pt too wide) detected at line 622
 |
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
+
+Overfull \hbox (8.45567pt too wide) detected at line 622
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 1085
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 1085
+|
+
+Overfull \hbox (8.17033pt too wide) detected at line 1118
+|
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.aux))
 (see the transcript file for additional information)
- 57994 words of node memory still in use:
-   1923 hlist, 243 vlist, 971 rule, 1 local_par, 1205 glue, 1209 kern, 242 pena
-lty, 480 glyph, 4391 attribute, 75 glue_spec, 738 attribute_list, 1 write, 1 us
-er_defined, 484 pdf_colorstack nodes
-   avail lists: 1:2,2:12637,3:1637,4:46,5:1886,6:1045,7:585,8:58,9:804,10:28,11
-:3
-Module gregoriotex Warning: Line heights or variable brace lengths may have cha
-nged. Rerun to fix. on input line 0
-</usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
-xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/texlive/texmf-d
-ist/fonts/opentype/public/libertine/LinLibertine_R.otf>
-Output written on main.pdf (2 pages, 19607 bytes).
+ 60377 words of node memory still in use:
+   2003 hlist, 253 vlist, 1011 rule, 1 local_par, 1255 glue, 1259 kern, 253 pen
+alty, 500 glyph, 4571 attribute, 75 glue_spec, 768 attribute_list, 1 write, 1 u
+ser_defined, 504 pdf_colorstack nodes
+   avail lists: 2:8271,3:1039,4:47,5:1171,6:777,7:481,8:54,9:562,10:20,11:3
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
 
 

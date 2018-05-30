@@ -1,14 +1,14 @@
-Output :
+Sortie :
 ========
 
 This is LuaTeX, Version 1.07.0 (TeX Live 2018/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Lourdes/gabc/Alleluia/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Communion/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2018/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.143 seconds
+luaotfload | main : initialization completed in 0.198 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -84,86 +84,13 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./DomineDeusMeusInTe-5_0_2.gtex
-! Argument of \GreProtrusion has an extra }.
-<inserted text> 
-\par 
-l.269 \GreBarSyllable
-                   {\GreSetThisSyllable{}{℣\GreProtrusion{\GreProtrusionFa...
-
-Runaway argument?
-! Paragraph ended before \GreProtrusion was complete.
-<to be read again> 
-\par 
-l.269 \GreBarSyllable
-                   {\GreSetThisSyllable{}{℣\GreProtrusion{\GreProtrusionFa...
-
-! Argument of \GreProtrusion has an extra }.
-<inserted text> 
-\par 
-l.269 \GreBarSyllable
-                   {\GreSetThisSyllable{}{℣\GreProtrusion{\GreProtrusionFa...
-
-Runaway argument?
-! Paragraph ended before \GreProtrusion was complete.
-<to be read again> 
-\par 
-l.269 \GreBarSyllable
-                   {\GreSetThisSyllable{}{℣\GreProtrusion{\GreProtrusionFa...
-
-! Argument of \GreProtrusion has an extra }.
-<inserted text> 
-\par 
-l.269 \GreBarSyllable
-                   {\GreSetThisSyllable{}{℣\GreProtrusion{\GreProtrusionFa...
-
-Runaway argument?
-! Paragraph ended before \GreProtrusion was complete.
-<to be read again> 
-\par 
-l.269 \GreBarSyllable
-                   {\GreSetThisSyllable{}{℣\GreProtrusion{\GreProtrusionFa...
-
-! Argument of \GreProtrusion has an extra }.
-<inserted text> 
-\par 
-l.272 }
-     %
-Runaway argument?
-! Paragraph ended before \GreProtrusion was complete.
-<to be read again> 
-\par 
-l.272 }
-     %
-! Argument of \GreProtrusion has an extra }.
-<inserted text> 
-\par 
-l.272 }
-     %
-Runaway argument?
-! Paragraph ended before \GreProtrusion was complete.
-<to be read again> 
-\par 
-l.272 }
-     %
-! Argument of \GreProtrusion has an extra }.
-<inserted text> 
-\par 
-l.272 }
-     %
-Runaway argument?
-! Paragraph ended before \GreProtrusion was complete.
-<to be read again> 
-\par 
-l.272 }
-     %
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-(see the transcript file for additional information)
- 39039 words of node memory still in use:
-   1275 hlist, 162 vlist, 647 rule, 1 local_par, 800 glue, 804 kern, 162 penalt
-y, 318 glyph, 2933 attribute, 75 glue_spec, 495 attribute_list, 1 write, 1 user
-_defined, 322 pdf_colorstack nodes
-   avail lists: 2:5551,3:724,4:26,5:802,6:165,7:648,8:34,9:378,10:13,11:3
+(./ReginaMundi-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+}] (./main.aux))
+ 17679 words of node memory still in use:
+   563 hlist, 73 vlist, 291 rule, 1 local_par, 355 glue, 359 kern, 73 penalty, 
+140 glyph, 1331 attribute, 75 glue_spec, 228 attribute_list, 1 write, 1 user_de
+fined, 144 pdf_colorstack nodes
+   avail lists: 2:4142,3:557,4:21,5:600,6:76,7:442,8:26,9:259,10:12,11:3
 
 warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
@@ -175,7 +102,7 @@ Transcript written on main.log.
 
 
 
-Errors :
+Erreurs :
 =========
 
 

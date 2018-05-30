@@ -1,0 +1,93 @@
+% Afficher des recommendations concernant la syntaxe.
+\RequirePackage[orthodox,l2tabu]{nag}
+\RequirePackage{luatex85}
+% Paramètres du document.
+\documentclass[%
+a3paper%                       Taille de page.
+,fontsize=47pt%                Taille de police.
+,DIV=17%                       Plus grand => des marges plus petites.
+,titlepage=off%                Faut-il une page de titre ?
+,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
+,headings=small%
+,parskip=false%
+,openany%
+]{scrbook}
+\renewcommand*\partheademptypage{\thispagestyle{empty}}
+
+%\usepackage{geometry}
+
+% Par souci de clarté, la définition des commandes est reportée dans un document annexe.
+\usepackage{gredoc,mudoc,lyluatex}
+\usepackage{pdfpages,transparent,array,ltablex}
+\addtolength{\voffset}{2mm}\addtolength{\headsep}{-2mm}
+\setlength{\extrarowheight}{2mm}
+\addto\captionsfrench{%
+  \renewcommand{\indexname}{Index des chants}%
+}
+
+\pdfcompresslevel=9
+
+\newcommand{\lieu}[1]{\hfill\linebreak[3]\hspace*{\stretch{1}}\nolinebreak\mbox{\emph{(#1)}}}
+
+\newcommand{\commandement}[1]{\noindent\textbf{#1}}
+
+\newcommand{\schola}[1]{}\newcommand{\foule}[1]{#1}
+\providecommand{\dest}{foule}
+
+\newcommand{\bgimage}[1]{%
+\raisebox{-.45\paperheight}[0pt][0pt]{%
+  \transparent{0.3}%
+  \includegraphics[width=.7\paperwidth,height=.7\paperheight,keepaspectratio=true]{img/#1}%
+  }%
+}
+
+\def\arraystretch{1.2}
+
+
+\grechangedim{overhepisemalowshift}{.7mm}{scalable}
+\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
+\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
+\grechangedim{vepisemahighshift}{2.1mm}{scalable}
+
+\title{Cantus}
+\date{}
+
+\def\blindsection#1{\markright{#1}\addcontentsline{toc}{section}{#1}}
+
+%\pagestyle{empty}
+
+%\includeonly{Parties/Kyriale-XI}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+%\include{Parties/Kyriale-I}
+
+%\include{Parties/Kyriale-II}
+
+%\include{Parties/Kyriale-IV}
+
+%\include{Parties/Kyriale-XI}
+
+%\include{Parties/Credo-I}
+
+%\include{Parties/Avent-IVTemps-Vendredi}
+
+%\include{Parties/Epiphanie}
+
+%\include{Parties/Epiphanie-IIIDim}
+
+%\include{Parties/Sexagesime}
+
+%\include{Parties/Christ-Roi
+
+%\include{Parties/01-20-SSFabianiEtSebastiani}
+
+%\include{Parties/02-22-CathedraSPetriApostoli}
+
+\include{Parties/07-16-BMVDeMonteCarmelo}
+
+%\include{Parties/IustusUtPalma}
+
+\end{document}

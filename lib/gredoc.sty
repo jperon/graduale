@@ -8,7 +8,7 @@
 
 %%%%%%%%%%%%%%%%% Vous pourriez vouloir modifier ces réglages. %%%%%%%%%%%%%%%%%
 %%% Taille des partitions grégoriennes.
-\newcounter{facteur}\setcounter{facteur}{45}
+\newcounter{facteur}\setcounter{facteur}{43}
 %%% Élasticité des espaces : mettez une valeur inférieure à 10000. Plus les
 %%% valeurs sont élevées, plus LaTeX aura de facilité à éviter les
 %%% "débordements", mais moins la mise en page sera rigoureuse.
@@ -17,7 +17,7 @@
 %%% Paramètres recommandés :
 %%% en A5 (police 11pt, DIV auto), tolerance à 1000 et pretolerance à 300 ;
 %%% en A6 (police 9pt, DIV=11), tolerance à 5000 et pretolerance à 1700.
-\tolerance=1000 \pretolerance=300
+\tolerance=1200 \pretolerance=400
 %%% Prévention des veuves et orphelines. Vous pouvez augmenter ces paramètres,
 %%% mais attendez-vous à des aberrations.
 %\usepackage[defaultlines=2,all]{nowidow}
@@ -65,7 +65,7 @@
 \RequirePackage{multicol,paracol}\setcounter{collectmore}{-1}
 \setlength{\columnsep}{\sep}\columnratio{\ratio}\swapcolumninevenpages
 \RequirePackage{needspace}
-\RequirePackage{graphicx}
+\RequirePackage{graphicx}\graphicspath{{img/}}
 \RequirePackage[table]{xcolor}
 \RequirePackage{keycommand,ifthen,calc}
 \RequirePackage{lettrine}
@@ -301,8 +301,8 @@
 %%% Réglages pour les lignes de portée.
 \gresetlinecolor{gregoriocolor}
 \grechangestafflinethickness{40}
-\grechangedim{spacelinestext}{2.5ex}{scalable}
-\grechangedim{spacebeneathtext}{1ex}{scalable}
+\grechangedim{spacelinestext}{2.7ex}{scalable}
+\grechangedim{spacebeneathtext}{1.2ex}{scalable}
 \grechangedim{abovelinestextraise}{0ex}{scalable}
 \makeatletter
 \grechangedim{bar@finalfinalis@standalone@notext}{1.5ex}{scalable}

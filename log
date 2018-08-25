@@ -3,12 +3,12 @@ Sortie :
 
 This is LuaTeX, Version 1.07.0 (TeX Live 2018/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Lourdes/gabc/Graduel/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Graduel/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2018/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.202 seconds
+luaotfload | main : initialization completed in 0.258 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -83,22 +83,15 @@ f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./LocusIste-5_0_2.gtex
-Overfull \hbox (8.45567pt too wide) detected at line 642
-|
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-(see the transcript file for additional information)
- 35195 words of node memory still in use:
-   1143 hlist, 145 vlist, 580 rule, 1 local_par, 718 glue, 723 kern, 148 penalt
-y, 286 glyph, 2675 attribute, 75 glue_spec, 452 attribute_list, 1 write, 1 user
-_defined, 292 pdf_colorstack nodes
-   avail lists: 2:6153,3:783,4:37,5:837,6:148,7:683,8:35,9:401,10:13,11:3
-Module gregoriotex Warning: Line heights or variable brace lengths may have cha
-nged. Rerun to fix. on input line 0
-</usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
-xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts/opentype/
-linux-libertine/LinLibertine_R.otf>
-Output written on main.pdf (1 page, 16351 bytes).
+(./DomineDominusNoster-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pd
+ftex.map}] (./main.aux))
+ 31271 words of node memory still in use:
+   1014 hlist, 129 vlist, 515 rule, 1 local_par, 637 glue, 641 kern, 132 penalt
+y, 254 glyph, 2369 attribute, 75 glue_spec, 401 attribute_list, 1 write, 1 user
+_defined, 258 pdf_colorstack nodes
+   avail lists: 2:5761,3:716,4:35,5:811,6:132,7:619,8:32,9:368,10:12,11:3
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
 
 

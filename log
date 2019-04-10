@@ -3,12 +3,12 @@ Sortie :
 
 This is LuaTeX, Version 1.07.0 (TeX Live 2018/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Requiem/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Communion/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2018/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.139 seconds
+luaotfload | main : initialization completed in 0.184 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -73,7 +73,8 @@ xmf/luatex-cache/generic/fonts/otl/linlibertine-rb.luc)(load luc: /var/lib/texm
 f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+No file main.aux.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -83,19 +84,15 @@ f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./Sanctus-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./main.aux))
+(./NotasMihiFecisti-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdfte
+x.map}] (./main.aux))
  14799 words of node memory still in use:
    467 hlist, 61 vlist, 243 rule, 1 local_par, 295 glue, 299 kern, 61 penalty, 
 116 glyph, 1115 attribute, 75 glue_spec, 192 attribute_list, 1 write, 1 user_de
 fined, 120 pdf_colorstack nodes
-   avail lists: 2:4181,3:562,4:18,5:664,6:64,7:409,8:26,9:261,10:11,11:3
-Module gregoriotex Warning: Line heights or variable brace lengths may have cha
-nged. Rerun to fix. on input line 0
-</usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
-xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts/opentype/
-linux-libertine/LinLibertine_R.otf>
-Output written on main.pdf (1 page, 13337 bytes).
+   avail lists: 2:2637,3:366,4:15,5:393,6:64,7:301,8:19,9:177,10:4,11:3
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
 
 

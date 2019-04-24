@@ -3,12 +3,12 @@ Sortie :
 
 This is LuaTeX, Version 1.07.0 (TeX Live 2018/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Graduel/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Communion/main.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2018/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.158 seconds
+luaotfload | main : initialization completed in 0.184 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -84,19 +84,13 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./BenedictaEtVenerabilis-5_0_2.gtex
-Overfull \hbox (8.45567pt too wide) detected at line 1226
-|
-
-Overfull \hbox (8.45567pt too wide) detected at line 1226
-|
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-(see the transcript file for additional information)
- 43839 words of node memory still in use:
-   1435 hlist, 182 vlist, 727 rule, 1 local_par, 900 glue, 904 kern, 182 penalt
-y, 358 glyph, 3293 attribute, 75 glue_spec, 555 attribute_list, 1 write, 1 user
-_defined, 362 pdf_colorstack nodes
-   avail lists: 2:7518,3:967,4:46,5:1051,6:185,7:868,8:40,9:482,10:20,11:4
+(./NotasMihiFecisti-5_0_2.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdfte
+x.map}] (./main.aux))
+ 14799 words of node memory still in use:
+   467 hlist, 61 vlist, 243 rule, 1 local_par, 295 glue, 299 kern, 61 penalty, 
+116 glyph, 1115 attribute, 75 glue_spec, 192 attribute_list, 1 write, 1 user_de
+fined, 120 pdf_colorstack nodes
+   avail lists: 2:2637,3:366,4:15,5:393,6:64,7:301,8:19,9:177,10:4,11:3
 
 warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.

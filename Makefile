@@ -1,5 +1,5 @@
 FICHIER = "00-Document"
-LATEX_CMD = lualatex -interaction=batchmode -shell-restricted -synctex=1
+LATEX_CMD = lualatex -interaction=nonstopmode -shell-restricted -synctex=1
 EXPORTS = export TEXINPUTS="lib:" ; export shell_escape_commands=bibtex,bibtex8,kpsewhich,makeindex,mpost,repstopdf,gregorio,lilypond
 
 document:

@@ -1,6 +1,6 @@
-%Compilation:gregorio Crubrumo-I.gabc:
-%Apercu:gedit Crubrumo-I-auto.tex:
-name:Crubrumo I;
+%Compilation:gregorio Credo-I.gabc:
+%Apercu:gedit Credo-I-auto.tex:
+name:Credo I;
 def-m1:\grevepisemus{j}{18};
 %%
 (c4) CRe( g)do(e') in(f) u(d)num(e') De(g)um.(h.) (::)

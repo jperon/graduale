@@ -1,5 +1,3 @@
-%Compilation:gregorio AspergesMe.gabc -o AspergesMe-auto.tex:
-%Apercu:gedit AspergesMe-auto.tex:
 name:Asperges me;
 annotation:Ant.;
 mode:7;

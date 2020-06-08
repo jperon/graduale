@@ -1,6 +1,108 @@
-Sortie :
+Output :
 ========
 
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian) 
+ system commands enabled.
+(/opt/musite/static/docs/tmp/Acclamations/gabc/Graduel/main.tex
+LaTeX2e <2018-12-01>
+
+luaotfload | main : initialization completed in 0.086 seconds
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/usr/share/texmf/tex/lualatex/gregoriotex/gregoriotex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty))
+(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-common.tex)
+(main.gaux) (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+Module microtype Warning: overwriting function `keepligature' on input line 59
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./AdiutorInOpportunitatibus-5_0_2.gtex
+Overfull \hbox (6.30266pt too wide) detected at line 104
+|
+
+Overfull \hbox (8.17033pt too wide) detected at line 933
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 933
+|
+
+Overfull \hbox (8.94853pt too wide) detected at line 933
+|
+
+Overfull \hbox (8.17033pt too wide) detected at line 933
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 1142
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 1329
+|
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
+(see the transcript file for additional information)
+ 56508 words of node memory still in use:
+   1853 hlist, 234 vlist, 937 rule, 1 local_par, 1162 glue, 1171 kern, 234 pena
+lty, 463 glyph, 4266 attribute, 74 glue_spec, 718 attribute_list, 1 write, 1 us
+er_defined, 470 pdf_colorstack nodes
+   avail lists: 2:9377,3:1224,4:49,5:1358,6:237,7:1137,8:56,9:632,10:26,11:4
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
+Transcript written on main.log.
 
 
 
@@ -9,8 +111,9 @@ Sortie :
 
 
 
-Erreurs :
+Errors :
 =========
 
+tput: No value for $TERM and no -T specified
 
 

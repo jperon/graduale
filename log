@@ -1,12 +1,12 @@
-Sortie :
+Output :
 ========
 
 This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Alleluia/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Trait/main.tex
 LaTeX2e <2018-12-01>
 
-luaotfload | main : initialization completed in 0.108 seconds
+luaotfload | main : initialization completed in 0.085 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 
@@ -62,7 +62,7 @@ Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
 Module microtype Warning: overwriting function `keepligature' on input line 59
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-No file main.aux.
+(./main.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -72,53 +72,28 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./HaecEstVera-5_0_2.gtex
-! Argument of ℣ has an extra }.
-<inserted text> 
-\par 
-l.222 }
-     %
-Runaway argument?
-! Paragraph ended before ℣ was complete.
-<to be read again> 
-\par 
-l.222 }
-     %
-! Argument of ℣ has an extra }.
-<inserted text> 
-\par 
-l.232 \GreSyllable
-                {\GreSetThisSyllable{}{e}{st}{e}{st}}{}{\GreUnstyled}{1}{\Gr...
+(./AdTeLevavi-5_0_2.gtex
+Underfull \hbox (badness 2503) in paragraph at lines 8--2029
+ []  [][][] [][][] [][][] [][][] [] [][] [] [] [][][] [][][][][][] [] [] [] [] 
+[] [] [] [] []  [][][] [] [][][] [][][] [] [][]
 
-Runaway argument?
-! Paragraph ended before ℣ was complete.
-<to be read again> 
-\par 
-l.232 \GreSyllable
-                {\GreSetThisSyllable{}{e}{st}{e}{st}}{}{\GreUnstyled}{1}{\Gr...
-
-! Argument of ℣ has an extra }.
-<inserted text> 
-\par 
-l.232 \GreSyllable
-                {\GreSetThisSyllable{}{e}{st}{e}{st}}{}{\GreUnstyled}{1}{\Gr...
-
-Runaway argument?
-! Paragraph ended before ℣ was complete.
-<to be read again> 
-\par 
-l.232 \GreSyllable
-                {\GreSetThisSyllable{}{e}{st}{e}{st}}{}{\GreUnstyled}{1}{\Gr...
-
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
+Underfull \hbox (badness 2662) in paragraph at lines 8--2029
+[][][][] [] [][] [][] [][] [] [][] [] [][][][] [] [] []  [][][] [][][][] [][] [
+][][] [][][] [][][] [][][] [] [] [] [] [] [] [][] [] [] [][]
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
 (see the transcript file for additional information)
- 33540 words of node memory still in use:
-   1091 hlist, 139 vlist, 555 rule, 1 local_par, 685 glue, 692 kern, 139 penalt
-y, 273 glyph, 2520 attribute, 74 glue_spec, 427 attribute_list, 1 write, 1 user
-_defined, 276 pdf_colorstack nodes
-   avail lists: 2:5012,3:677,4:23,5:722,6:142,7:572,8:29,9:333,10:9,11:3
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
+ 75692 words of node memory still in use:
+   2494 hlist, 314 vlist, 1255 rule, 1 local_par, 1562 glue, 1569 kern, 317 pen
+alty, 625 glyph, 5700 attribute, 74 glue_spec, 957 attribute_list, 1 write, 1 u
+ser_defined, 628 pdf_colorstack nodes
+   avail lists: 1:1,2:11571,3:1529,4:56,5:1637,6:317,7:1310,8:62,9:780,10:10,11
+:3
+Module gregoriotex Warning: Line heights or variable brace lengths may have cha
+nged. Rerun to fix. on input line 0
+</usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
+xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts/opentype/
+linux-libertine/LinLibertine_R.otf>
+Output written on main.pdf (2 pages, 19028 bytes).
 Transcript written on main.log.
 
 
@@ -128,7 +103,7 @@ Transcript written on main.log.
 
 
 
-Erreurs :
+Errors :
 =========
 
 tput: No value for $TERM and no -T specified

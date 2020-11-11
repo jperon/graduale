@@ -1,15 +1,15 @@
 Output :
 ========
 
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian) 
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Trait/main.tex
-LaTeX2e <2018-12-01>
+(/opt/musite/static/docs/tmp/Graduale/gabc/Offertoire/main.tex
+LaTeX2e <2020-02-02> patch level 5
 
-luaotfload | main : initialization completed in 0.085 seconds
+
+ L3 programming layer <2020-09-24>
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
-
+Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
@@ -18,19 +18,16 @@ Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
-(/usr/share/texmf/tex/lualatex/gregoriotex/gregoriotex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/lualatex/gregoriotex/gregoriotex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
@@ -40,60 +37,52 @@ Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-common.tex)
-(main.gaux) (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-main.tex
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-common.tex)
+(main.gaux)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-spaces.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-chars.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-signs.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-symbols.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def)))
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+ (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
-Module microtype Warning: overwriting function `keepligature' on input line 59
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./AdTeLevavi-5_0_2.gtex
-Underfull \hbox (badness 2503) in paragraph at lines 8--2029
- []  [][][] [][][] [][][] [][][] [] [][] [] [] [][][] [][][][][][] [] [] [] [] 
-[] [] [] [] []  [][][] [] [][][] [][][] [] [][]
-
-Underfull \hbox (badness 2662) in paragraph at lines 8--2029
-[][][][] [] [][] [][] [][] [] [][] [] [][][][] [] [] []  [][][] [][][][] [][] [
-][][] [][][] [][][] [][][] [] [] [] [] [] [] [][] [] [] [][]
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
-(see the transcript file for additional information)
- 75692 words of node memory still in use:
-   2494 hlist, 314 vlist, 1255 rule, 1 local_par, 1562 glue, 1569 kern, 317 pen
-alty, 625 glyph, 5700 attribute, 74 glue_spec, 957 attribute_list, 1 write, 1 u
-ser_defined, 628 pdf_colorstack nodes
-   avail lists: 1:1,2:11571,3:1529,4:56,5:1637,6:317,7:1310,8:62,9:780,10:10,11
-:3
-Module gregoriotex Warning: Line heights or variable brace lengths may have cha
-nged. Rerun to fix. on input line 0
-</usr/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/te
-xmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts/opentype/
-linux-libertine/LinLibertine_R.otf>
-Output written on main.pdf (2 pages, 19028 bytes).
+(./InOmnemTerram-5_2_1.gtex)
+! I can't write on file `main.pdf'.
+Please type another file name for output
+! Emergency stop.
+<to be read again> 
+\endgroup \set@typeset@protect 
+l.90 \end{document}
+                 
+ 31403 words of node memory still in use:
+   754 hlist, 80 vlist, 310 rule, 2 disc, 78 local_par, 1 dir, 495 glue, 760 ke
+rn, 421 penalty, 330 glyph, 3690 attribute, 81 glue_spec, 633 attribute_list, 1
+ temp, 2 if_stack, 1 write, 1 user_defined, 161 pdf_colorstack nodes
+   avail lists: 2:54,3:7,4:1,5:14,7:9,9:1,10:8,11:1
+!  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on main.log.
 
 
@@ -107,5 +96,6 @@ Errors :
 =========
 
 tput: No value for $TERM and no -T specified
+sh: 1: gregorio-5_2_1: not found
 
 

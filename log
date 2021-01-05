@@ -3,7 +3,7 @@ Output :
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Offertoire/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Antienne/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -69,20 +69,15 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./InOmnemTerram-5_2_1.gtex)
-! I can't write on file `main.pdf'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-\endgroup \set@typeset@protect 
-l.90 \end{document}
-                 
- 31403 words of node memory still in use:
-   754 hlist, 80 vlist, 310 rule, 2 disc, 78 local_par, 1 dir, 495 glue, 760 ke
-rn, 421 penalty, 330 glyph, 3690 attribute, 81 glue_spec, 633 attribute_list, 1
- temp, 2 if_stack, 1 write, 1 user_defined, 161 pdf_colorstack nodes
-   avail lists: 2:54,3:7,4:1,5:14,7:9,9:1,10:8,11:1
-!  ==> Fatal error occurred, no output PDF file produced!
+(./CaniteTuba-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+] (./main.aux))
+ 1236 words of node memory still in use:
+   15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
+h, 135 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
+df_colorstack nodes
+   avail lists: 2:5101,3:528,4:151,5:893,6:73,7:809,9:1104,10:4,11:3
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
 
 

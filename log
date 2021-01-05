@@ -1,9 +1,9 @@
-Output :
+Sortie :
 ========
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Antienne/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Requiem/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -69,15 +69,20 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./CaniteTuba-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-] (./main.aux))
- 1236 words of node memory still in use:
+(./SitNomenDomini-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.
+map}] (./main.aux))
+ 1208 words of node memory still in use:
    15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
-h, 135 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
+h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
 df_colorstack nodes
-   avail lists: 2:5101,3:528,4:151,5:893,6:73,7:809,9:1104,10:4,11:3
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
+   avail lists: 2:3398,3:364,4:97,5:575,6:47,7:519,9:680,10:5,11:3
+Module gregoriotex Warning: Line heights or variable brace lengths may have cha
+nged. Rerun to fix. on input line 0
+</usr/share/fonts/opentype/linux-libertine/LinLibertine_RI.otf></usr/share/texl
+ive/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/texli
+ve/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts
+/opentype/linux-libertine/LinLibertine_R.otf>
+Output written on main.pdf (1 page, 14370 bytes).
 Transcript written on main.log.
 
 
@@ -87,10 +92,9 @@ Transcript written on main.log.
 
 
 
-Errors :
+Erreurs :
 =========
 
 tput: No value for $TERM and no -T specified
-sh: 1: gregorio-5_2_1: not found
 
 

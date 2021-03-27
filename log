@@ -1,9 +1,9 @@
-Output :
+Sortie :
 ========
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Acclamations/gabc/Alleluia/main.tex
+(/opt/musite/static/docs/tmp/Kyriale/kyriale/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -69,20 +69,21 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./Confitebuntur-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.m
-ap}] (./main.aux))
+Module gregoriotex Warning: warning:name can't be empty on input line 82
+Module gregoriotex Warning: warning:no name specified, put `name:...;' at the b
+eginning of the file, can be dangerous with some output formats on input line 8
+2
+Module gregoriotex Warning: *** end of warnings for agnus_VII.gabc *** on input
+ line 82
+(./agnus_VII-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+ (./main.aux))
  1208 words of node memory still in use:
    15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
 h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
 df_colorstack nodes
-   avail lists: 2:9004,3:928,4:340,5:1562,6:165,7:1753,9:2450,10:11,11:3
-Module gregoriotex Warning: Line heights or variable brace lengths may have cha
-nged. Rerun to fix. on input line 0
-</usr/share/fonts/opentype/linux-libertine/LinLibertine_RI.otf></usr/share/texl
-ive/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/texli
-ve/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts
-/opentype/linux-libertine/LinLibertine_R.otf>
-Output written on main.pdf (1 page, 16366 bytes).
+   avail lists: 2:5894,3:683,4:165,5:1012,6:81,7:976,9:1284,10:3,11:3
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
 
 
@@ -92,9 +93,10 @@ Transcript written on main.log.
 
 
 
-Errors :
+Erreurs :
 =========
 
 tput: No value for $TERM and no -T specified
+sh: 1: gregorio-5_2_1: not found
 
 

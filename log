@@ -3,7 +3,7 @@ Output :
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Lourdes/gabc/Graduel/main.tex
+(/opt/musite/static/docs/tmp/Acclamations/gabc/Alleluia/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -57,8 +57,7 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-No file main.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -70,18 +69,20 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./PropitiusEsto-5_2_1.gtex
-Overfull \hbox (8.45567pt too wide) detected at line 793
-|
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-(see the transcript file for additional information)
- 1220 words of node memory still in use:
+(./Confitebuntur-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.m
+ap}] (./main.aux))
+ 1208 words of node memory still in use:
    15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
-h, 127 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
+h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
 df_colorstack nodes
-   avail lists: 2:10604,3:1043,4:382,5:1817,6:172,7:1946,9:2662,10:16,11:3
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
+   avail lists: 2:9004,3:928,4:340,5:1562,6:165,7:1753,9:2450,10:11,11:3
+Module gregoriotex Warning: Line heights or variable brace lengths may have cha
+nged. Rerun to fix. on input line 0
+</usr/share/fonts/opentype/linux-libertine/LinLibertine_RI.otf></usr/share/texl
+ive/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/texli
+ve/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts
+/opentype/linux-libertine/LinLibertine_R.otf>
+Output written on main.pdf (1 page, 16366 bytes).
 Transcript written on main.log.
 
 
@@ -95,6 +96,5 @@ Errors :
 =========
 
 tput: No value for $TERM and no -T specified
-sh: 1: gregorio-5_2_1: not found
 
 

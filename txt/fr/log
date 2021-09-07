@@ -3,7 +3,7 @@ Sortie :
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale2/gabc/Antienne/main.tex
+(/opt/musite/static/docs/tmp/Lourdes_2020/gabc/Offertoire/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -57,8 +57,7 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-No file main.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -70,17 +69,11 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./Adorna-5_2_1.gtex
-Overfull \hbox (8.17033pt too wide) detected at line 571
+(./AveMaria_EtBenedictus-5_2_1.gtex
+Overfull \hbox (8.45567pt too wide) detected at line 468
 |
 
-Overfull \hbox (8.17033pt too wide) detected at line 667
-|
-
-Overfull \hbox (8.17033pt too wide) detected at line 1013
-|
-
-Overfull \hbox (8.45567pt too wide) detected at line 1013
+Overfull \hbox (8.45567pt too wide) detected at line 468
 |
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
 (see the transcript file for additional information)
@@ -88,7 +81,7 @@ Overfull \hbox (8.45567pt too wide) detected at line 1013
    15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
 h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
 df_colorstack nodes
-   avail lists: 2:12138,3:1373,4:360,5:2085,6:166,7:2057,9:2659,10:23,11:3
+   avail lists: 2:7525,3:769,4:288,5:1367,6:137,7:1469,9:2063,10:4,11:3
 
 warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
@@ -104,6 +97,5 @@ Erreurs :
 =========
 
 tput: No value for $TERM and no -T specified
-sh: 1: gregorio-5_2_1: not found
 
 

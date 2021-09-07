@@ -1,9 +1,9 @@
-Sortie :
+Output :
 ========
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale2/gabc/Antienne/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Introit/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -59,38 +59,24 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
 No file main.aux.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
-*geometry* driver: auto-detecting
-*geometry* detected driver: luatex
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./Adorna-5_2_1.gtex
-Overfull \hbox (8.17033pt too wide) detected at line 571
-|
+! I can't write on file `main.aux'.
+\document ...ate \openout \@mainaux \jobname .aux 
+                                                  \immediate \write \@mainau...
 
-Overfull \hbox (8.17033pt too wide) detected at line 667
-|
+l.77 \begin{document}
+                   
+Please type another output file name
+! Emergency stop.
+\document ...ate \openout \@mainaux \jobname .aux 
+                                                  \immediate \write \@mainau...
 
-Overfull \hbox (8.17033pt too wide) detected at line 1013
-|
-
-Overfull \hbox (8.45567pt too wide) detected at line 1013
-|
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-(see the transcript file for additional information)
- 1208 words of node memory still in use:
-   15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
-h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
-df_colorstack nodes
-   avail lists: 2:12138,3:1373,4:360,5:2085,6:166,7:2057,9:2659,10:23,11:3
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
+l.77 \begin{document}
+                   
+ 433 words of node memory still in use:
+   2 hlist, 1 rule, 1 dir, 3 kern, 2 glyph, 6 attribute, 53 glue_spec, 6 attrib
+ute_list, 1 if_stack, 1 open, 1 write, 1 user_defined, 1 pdf_colorstack nodes
+   avail lists: 2:13,3:2,5:9,7:28,9:3,11:3
+!  ==> Fatal error occurred, no output PDF file produced!
 Transcript written on main.log.
 
 
@@ -100,10 +86,9 @@ Transcript written on main.log.
 
 
 
-Erreurs :
+Errors :
 =========
 
 tput: No value for $TERM and no -T specified
-sh: 1: gregorio-5_2_1: not found
 
 

@@ -69,20 +69,46 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./BeataViscera-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p}] (./main.aux))
+(./QuinquePrudentes-5_2_1.gtex
+Overfull \hbox (8.17033pt too wide) detected at line 106
+|
+
+Overfull \hbox (8.94853pt too wide) detected at line 106
+|
+
+Overfull \hbox (8.94853pt too wide) detected at line 106
+|
+
+Overfull \hbox (4.14964pt too wide) detected at line 122
+|
+
+Overfull \hbox (9.84018pt too wide) detected at line 122
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 122
+|
+
+Overfull \hbox (8.45567pt too wide) detected at line 133
+|
+
+Underfull \hbox (badness 1874) in paragraph at lines 11--756
+ []  [][][] [][][] [] [][][] [] [][][][][][][][][] [][][][] [][][] [][][][][][]
+ [][][][] [][][][] [] [] []  [][][][][][][][][][][][][][][][][][][][][][] [][][
+][]
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
+(see the transcript file for additional information)
  1208 words of node memory still in use:
    15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
 h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
 df_colorstack nodes
-   avail lists: 2:3958,3:427,4:139,5:685,6:64,7:723,9:948,10:6,11:3
+   avail lists: 2:7444,3:794,4:249,5:1274,6:106,7:1255,9:1663,10:8,11:3
 Module gregoriotex Warning: Line heights or variable brace lengths may have cha
 nged. Rerun to fix. on input line 0
 </usr/share/fonts/opentype/linux-libertine/LinLibertine_RI.otf></usr/share/texl
 ive/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/texli
 ve/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/fonts
 /opentype/linux-libertine/LinLibertine_R.otf>
-Output written on main.pdf (1 page, 16135 bytes).
+Output written on main.pdf (1 page, 17903 bytes).
 Transcript written on main.log.
 
 

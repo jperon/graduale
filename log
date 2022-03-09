@@ -3,7 +3,7 @@ Sortie :
 
 This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Offertoire/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Trait/main.tex
 LaTeX2e <2021-06-01> patch level 1
  L3 programming layer <2021-08-27>
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -69,12 +69,26 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./EcceDedi-6_0_0.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./main.aux))
+(./VeniSponsa-6_0_0.gtex
+Overfull \hbox (8.45567pt too wide) detected at line 1675
+|
+
+Overfull \hbox (8.17033pt too wide) detected at line 1727
+|
+
+Underfull \hbox (badness 1881) in paragraph at lines 11--2186
+[][][][] [] [][][] [][][] [] [] [][][] [] [][] [][] [][] [] [] [][][][][][] [][
+][] [] [] []  [][][] [][][] [][][] [][][][]
+
+Overfull \hbox (15.25563pt too wide) in paragraph at lines 11--2186
+[][][][] [][][] [] [][] [] [] [] [] [] [] [] [] [] []  [][][][][][] [][][] [][]
+[] [][][] [][][] [] [][][][][] [][][] [] [] [] [] [] [] [] [][] [] [] [] []
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
+(see the transcript file for additional information)
  557 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 3 glyph, 24 attribute, 64 glue_spe
 c, 6 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:1,2:8554,3:1398,4:5,5:2218,6:202,7:2270,9:3078,10:3,11:3
+   avail lists: 1:4,2:24594,3:3305,4:28,5:5724,6:522,7:6243,9:8619,10:25,11:3
 
 warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.

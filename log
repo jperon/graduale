@@ -1,33 +1,33 @@
 Sortie :
 ========
 
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian) 
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/gabc/Trait/main.tex
-LaTeX2e <2021-06-01> patch level 1
- L3 programming layer <2021-08-27>
+(/opt/musite/static/docs/tmp/Graduale/gabc/Introit/main.tex
+LaTeX2e <2020-02-02> patch level 5
+
+
+ L3 programming layer <2020-09-24>
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2021/06/25 v3.34 KOMA-Script document class (article)
+Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/local/share/texmf/tex/lualatex/gregoriotex/gregoriotex.sty
+(/usr/share/texlive/texmf-dist/tex/lualatex/gregoriotex/gregoriotex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def))
-(/usr/share/texlive/texmf-dist/tex/latex/luacolor/luacolor.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
@@ -37,27 +37,27 @@ Document Class: scrartcl 2021/06/25 v3.34 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-common.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-main.tex
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-common.tex)
 (main.gaux)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-gsp-default.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-spaces.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-chars.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-signs.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-symbols.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texlive/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def)))
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+ (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-No file main.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -69,26 +69,13 @@ No file main.aux.
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./VeniSponsa-6_0_0.gtex
-Overfull \hbox (8.45567pt too wide) detected at line 1675
-|
-
-Overfull \hbox (8.17033pt too wide) detected at line 1727
-|
-
-Underfull \hbox (badness 1881) in paragraph at lines 11--2186
-[][][][] [] [][][] [][][] [] [] [][][] [] [][] [][] [][] [] [] [][][][][][] [][
-][] [] [] []  [][][] [][][] [][][] [][][][]
-
-Overfull \hbox (15.25563pt too wide) in paragraph at lines 11--2186
-[][][][] [][][] [] [][] [] [] [] [] [] [] [] [] [] []  [][][][][][] [][][] [][]
-[] [][][] [][][] [] [][][][][] [][][] [] [] [] [] [] [] [] [][] [] [] [] []
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux))
-(see the transcript file for additional information)
- 557 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 3 glyph, 24 attribute, 64 glue_spe
-c, 6 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:4,2:24594,3:3305,4:28,5:5724,6:522,7:6243,9:8619,10:25,11:3
+(./CantemusDomino-5_2_1.gtex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.
+map}] (./main.aux))
+ 1208 words of node memory still in use:
+   15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
+h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
+df_colorstack nodes
+   avail lists: 2:9077,3:1002,4:269,5:1531,6:122,7:1499,9:1953,10:18,11:3
 
 warning  (pdf backend): draftmode enabled, not changing output pdf
 Transcript written on main.log.
@@ -104,5 +91,6 @@ Erreurs :
 =========
 
 tput: No value for $TERM and no -T specified
+sh: 1: gregorio-5_2_1: not found
 
 

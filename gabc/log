@@ -3,7 +3,7 @@ Sortie :
 
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian) 
  system commands enabled.
-(/opt/musite/static/docs/tmp/Completorium/gabc/Lecon/main.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Trait/main.tex
 LaTeX2e <2020-02-02> patch level 5
 
 
@@ -69,15 +69,19 @@ Document Class: scrartcl 2020/07/22 v3.31 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(./OratioIeremiae-5_2_1.gtex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.m
-ap}]) [2] (./main.aux))
- 1146 words of node memory still in use:
-   14 hlist, 3 vlist, 9 rule, 1 local_par, 10 glue, 12 kern, 3 penalty, 6 glyph
-, 109 attribute, 74 glue_spec, 24 attribute_list, 1 write, 1 user_defined, 4 pd
-f_colorstack nodes
-   avail lists: 1:1,2:27293,3:3069,4:726,5:4490,6:303,7:4492,9:5182,10:76,11:3
-
-warning  (pdf backend): draftmode enabled, not changing output pdf
+(./DeNecessitatibus-5_2_1.gtex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex
+.map}]) [2] (./main.aux))
+ 1208 words of node memory still in use:
+   15 hlist, 3 vlist, 11 rule, 1 local_par, 10 glue, 13 kern, 6 penalty, 5 glyp
+h, 121 attribute, 74 glue_spec, 26 attribute_list, 1 write, 1 user_defined, 4 p
+df_colorstack nodes
+   avail lists: 2:19717,3:2051,4:737,5:3584,6:352,7:3915,9:5410,10:20,11:5
+Module gregoriotex Warning: Line heights or variable brace lengths may have cha
+nged. Rerun to fix. on input line 0
+</usr/share/texlive/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf><
+/usr/share/texlive/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf><
+/usr/share/fonts/opentype/linux-libertine/LinLibertine_R.otf>
+Output written on main.pdf (2 pages, 19149 bytes).
 Transcript written on main.log.
 
 
@@ -91,6 +95,5 @@ Erreurs :
 =========
 
 tput: No value for $TERM and no -T specified
-sh: 1: gregorio-5_2_1: not found
 
 
